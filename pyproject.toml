@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pre-rag42-annotator"
+version = "0.1.0"
+description = ""
+authors = ["CalMaru <cal@42maru.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+pre-commit = "^3.6.1"
+
+[tool.black]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
