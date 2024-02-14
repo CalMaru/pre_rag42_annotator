@@ -13,12 +13,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Install Poetry
-      run: pipx install poetry
     - uses: actions/setup-python@v5
       with:
         python-version: "3.11.1"
-        cache: "poetry"
-    - run: poetry install
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install black==23.1.0
     - name: Formatting with black
       run: black --check .
