@@ -1,32 +1,40 @@
-## Description
+name: PR Template
+about: Describe the purpose or the changes made in this PR.
 
-Please include a summary of the change and the issue it solves.
+# Labels for categorization
+labels:
+  - enhancement
+  - bug
+  - documentation
 
-Fixes #issue_number
+# Assignees for the PR
+assignees:
+  - username1
+  - username2
 
-## Type of change
+# Reviewers for the PR
+reviewers:
+  - username3
+  - username4
 
-(Please delete options that are not relevant)
+# Projects associated with this PR
+projects:
+  - ProjectName1
+  - ProjectName2
 
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] ⚡ New feature (non-breaking change which adds functionality)
-- [ ] 📢 Breaking change (fix or feature that would cause existing functionality not to work as expected)
-- [ ] 📄 This change requires a documentation update
+# Milestone for this PR
+milestone: MilestoneName
 
-## Verification Process
+# Description of the PR
+description: |
+  Brief description of the changes made in this PR.
 
-To ensure the changes are working as expected:
+  ## Changes Made
+  - Change 1
+  - Change 2
 
- - [ ]   Test Location: Specify the URL or path for testing.
- - [ ]   Verification Steps: Outline the steps or queries needed to validate the change. Include any data, configurations, or actions required to reproduce or see the new functionality.
-
-## Additional Media:
-
-- [ ] I have attached a brief loom video or screenshots showcasing the new functionality or change.
-
-## Checklist:
-
-- [ ] My code follows the style guidelines(PEP 8) of MindsDB.
-- [ ] I have appropriately commented on my code, especially in complex areas.
-- [ ] Necessary documentation updates are either made or tracked in issues.
-- [ ] Relevant unit and integration tests are updated or added.
+# Checklist for contributors to follow
+checklist:
+  - [ ] Tests added/passed
+  - [ ] Documentation updated
+  - [ ] Code follows style guidelines
