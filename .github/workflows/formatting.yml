@@ -22,3 +22,5 @@ jobs:
         pip install black==23.1.0
     - name: Formatting with black
       run: black --check .
+    - name: Python flake8 Lint
+      uses: py-actions/flake8@v2.3.0
