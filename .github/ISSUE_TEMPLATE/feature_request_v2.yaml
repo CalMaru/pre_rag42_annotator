@@ -25,7 +25,10 @@ body:
   attributes:
     label: 구현 계획
     description: 구현 계획이 있다면 알려주세요. 밑에 링크로 첨부하셔도 됩니다 😉
-    placeholder: 
+    placeholder: |
+      1. 무슨 service 추상화
+      2. 어떤 repository 구현체 구현
+      3. router 설정
   validations:
     required: false
 
