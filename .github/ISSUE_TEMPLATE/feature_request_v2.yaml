@@ -1,7 +1,9 @@
 name: 🚀 기능 개발 계획 업데이트
 description: 기능 개발 예정이신가요? 😃
+title: "[Feature]: "
 labels: [enhancement]
 body:
+
 - type: textarea
   attributes:
     label: 기능 설명
