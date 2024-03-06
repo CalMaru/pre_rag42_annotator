@@ -1,36 +1,47 @@
-name: 🚀 Request a feature
-description: Create a feature request for us to add to our roadmap
+name: 🚀 기능 개발 계획 업데이트
+description: 기능 개발 예정이신가요? 😃
 labels: [enhancement]
 body:
-- type: markdown
-  attributes:
-    value: Thanks for taking the time to fill out this feature request! Please fill out the form in English!
-
 - type: textarea
   attributes:
-    label: Short description and motivation for the proposed feature
+    label: 기능 설명
+    description: 구현할 기능을 간단하게 설명해주세요 ✨
+    placeholder: |
+      - A api 구현
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Video or screenshots
-    description: The better the information you can provide, the faster we can make it!
-    placeholder: https://www.loom.com/share/abcdefghijklmnopqrrstuvwxyz
+    label: 이미지 첨부
+    description: 구현하려는 기능과 관련된 피그마 화면, 순서도 이미지 등을 첨부해주세요 📷
+    placeholder: 피그마 화면, 그림 등의 이미지 파일 
   validations:
     required: false
 
 - type: textarea
   attributes:
-    label: Describe some possible solutions
-    description: How could this feature be implemented?
+    label: 구현 계획
+    description: 구현 계획이 있다면 알려주세요. 밑에 링크로 첨부하셔도 됩니다 😉
+    placeholder: 
   validations:
     required: false
 
 - type: textarea
   attributes:
-    label: Anything else?
+    label: 추가 사항
     description: |
-      Links? References? Ideas? Anything else that will give us more context!
+      Links? References? Ideas? 노션 링크, 회의록 링크 등 기능 구현과 관련된 링크를 첨부해주세요 🔗
   validations:
     required: false
+
+- type: checkboxes
+  attributes:
+    label: 개발 계획 추가 전 체크 리스트 🚀
+    options:
+      - label: 기능 구현과 관련된 사람을 assigness로 등록했나요?
+        required: true
+      - label: 다른 개발자에게 기능 구현을 요청하는 경우 help wanted 태그를 첨부했나요?
+        required: true
+      - label: 기능에 대한 설명을 성실하게 기입했나요?
+        required: true
