@@ -1,0 +1,49 @@
+name: 🧭 지나간 개발 이슈 보고
+description: 개발하면서 발생했던 이슈를 공유해주세요 😋
+title: "[Log]: "
+labels: [log]
+body:
+
+- type: textarea
+  attributes:
+    label: 기능 설명
+    description: 개발 당시 발생한 이슈 사항을 설명해주세요 😫
+    placeholder: |
+      - 도커 실행 시 sqlalchemy에서 pymysql을 import하지 못하는 문제 발생
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 이미지 첨부
+    description: 이슈와 관련된 에러 로그나 코드 스크린샷, 그림 등이 있다면 첨부해주세요 📷
+    placeholder: 에러 로그, 코드 스크린샷, 피그마 화면 등의 이미지 파일 
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: 해결 과정
+    description: 이슈 해결을 위해 수행한 작업을 공유해주세요 😉
+    placeholder: |
+      - Dockerfile에서 dependency 설치 시 사용하는 파일 변경
+        - poetry.lock → pypoetry.toml 
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 추가 사항
+    description: |
+      Links? References? Ideas? 노션 링크, 회의록 링크 등 이슈 해결과 관련된 링크를 첨부해주세요 🔗
+  validations:
+    required: false
+
+- type: checkboxes
+  attributes:
+    label: 이슈 로깅 전 체크 리스트 🧭
+    options:
+      - label: 다른 개발자가 이해하고 다음 개발에 참고할 수 있게 작성되었나요?
+        required: true
+      - label: 이슈 상황과 해결 과정을 성실하게 기입했나요?
+        required: true
