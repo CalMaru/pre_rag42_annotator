@@ -1,0 +1,39 @@
+name: 기능 구현 매뉴얼 💻
+description: 기능 구현과 관련되 정책, 혹은 방법 정리가 필요하다면? 🤔
+title: "[Feature]: "
+labels: [enhancement, documentation]
+body:
+
+- type: textarea
+  attributes:
+    label: 정책 or 방법 설명
+    description: 구현할 기능에 대한 정책 혹은 방법을 간단하게 설명해주세요 🖊️
+    placeholder: |
+      - A api 구현
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: 이미지 첨부
+    description: 이해를 돕기 위한 이미지 파일을 첨부해주세요 📷
+    placeholder: 피그마 화면, 그림 등의 이미지 파일 
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: 추가 사항
+    description: |
+      Links? References? Ideas? 노션 링크, 회의록 링크 등 기능 구현과 관련된 링크를 첨부해주세요 🔗
+  validations:
+    required: false
+
+- type: checkboxes
+  attributes:
+    label: 정책 및 개발 방법 매뉴얼 전 체크 리스트 🚀
+    options:
+      - label: 기능 구현과 관련된 사람을 assigness로 등록했나요?
+        required: true
+      - label: 정책이나 구현 방법을 보고 바로 구현할 수 있을 정도로 작성했나요?
+        required: true
