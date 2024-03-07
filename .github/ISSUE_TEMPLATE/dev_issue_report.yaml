@@ -48,18 +48,10 @@ body:
       - label: 이슈 상황과 해결 과정을 성실하게 기입했나요?
         required: true
 
-- type: textarea
+- type: checkboxes
   attributes:
-    label: Issue 클로징
-    description: |
-      - [] 이슈 생성 후 클로징까지 완료하셨나요?
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
-    value: |
-        - [] 이슈 생성 후 클로징까지 완료하셨나요?
-        - OS:
-        - Node:
-        - npm:
-    render: markdown
+    description: 이 부분은 이슈 생성 직후에 체크해주세요 ✔️
+    label: 이슈 클로징 🚧
+    options:
+      - label: 이슈 생성 후 클로징까지 완료하셨나요?
+        required: false
