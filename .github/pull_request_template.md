@@ -1,32 +1,26 @@
-## Description
+## 이 PR을 소개해주세요 😉
 
-Please include a summary of the change and the issue it solves.
+- contents
+- 관련 이슈: #<여기에 이슈 번호를 넣어주세요>
 
-Fixes #issue_number
+## 이 PR은 어떤 타입인가요? 👩‍💻👨‍💻
 
-## Type of change
+- [ ] 🐛 디버깅, 오류 해결
+- [ ] ⚡ 새로운 기능 개발
+- [ ] 📢 기능 개발 외의 개발 환경 설정, 배포 설정, GitHub 설정 등 
+- [ ] 📄 문서
 
-(Please delete options that are not relevant)
+## 코드 상에 어떤 변동 사항이 있나요? 🤖
 
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] ⚡ New feature (non-breaking change which adds functionality)
-- [ ] 📢 Breaking change (fix or feature that would cause existing functionality not to work as expected)
-- [ ] 📄 This change requires a documentation update
+- contents
 
-## Verification Process
+## PR 전 체크 리스트 ✅
 
-To ensure the changes are working as expected:
-
- - [ ]   Test Location: Specify the URL or path for testing.
- - [ ]   Verification Steps: Outline the steps or queries needed to validate the change. Include any data, configurations, or actions required to reproduce or see the new functionality.
-
-## Additional Media:
-
-- [ ] I have attached a brief loom video or screenshots showcasing the new functionality or change.
-
-## Checklist:
-
-- [ ] My code follows the style guidelines(PEP 8) of MindsDB.
-- [ ] I have appropriately commented on my code, especially in complex areas.
-- [ ] Necessary documentation updates are either made or tracked in issues.
-- [ ] Relevant unit and integration tests are updated or added.
+- [ ] 코드가 정상적으로 실행되는 것을 테스트 했습니다.
+- [ ] 관련된 이슈를 태깅했습니다.
+- [ ] Assignees 설정을 완료했습니다.
+- [ ] 리뷰어 설정을 완료했습니다.
+  - [ ] 저는 셀프로 머지할게요
+  - [ ] 😉 **EASY** 😉 대강대강 봐주십쇼...
+  - [ ] 😀 **MEDIUM** 😀 코드 로직을 꼼꼼하게 확인해주세요
+  - [ ] 🧐 **HARD** 🧐 가능한 상세하게 리뷰해주세요
